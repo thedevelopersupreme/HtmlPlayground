@@ -50,6 +50,40 @@ body {
   margin-bottom: 20px;
 }
 
+.color-picker {
+  margin: 20px 0;
+}
+
+.colorOption {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.colorOption:last-child {
+  margin-right: 0;
+}
+
+.color1 {
+  background-color: black;
+}
+.color2 {
+  background-color: rgb(0, 89, 255);
+}
+.color3 {
+  background-color: red;
+}
+.color4 {
+  background-color: yellow;
+}
+.color5 {
+  background-color: rgb(51, 182, 51);
+}
+.color6 {
+  background-color: rgb(97, 63, 63);
+}
+
 .details-Header {
   text-transform: uppercase;
   margin: 20px 0;
@@ -78,4 +112,22 @@ body {
 .add-cart:active {
   background-color: white;
   color: black;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  letter-spacing: 3px;
 }

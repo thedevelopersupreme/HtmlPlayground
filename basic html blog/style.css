@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -57,7 +57,6 @@ h1::first-letter {
   background-color: #e2e2e2;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 aside {
@@ -192,4 +191,30 @@ button {
 /* use when is clicked */
 /* a:active{
 
+} */
+
+/* FLOATS */
+/* .image-author {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
 } */

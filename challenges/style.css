@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -86,7 +87,6 @@ body {
 
 .details-Header {
   text-transform: uppercase;
-  margin: 20px 0;
   font-size: 16px;
 }
 
@@ -130,4 +130,36 @@ h2::after {
   top: -10px;
   left: -25px;
   letter-spacing: 3px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  margin-top: 10px;
+}
+
+.content-info {
+  clear: both;
+}
+
+.image-container {
+  float: left;
+  margin-right: 40px;
+}
+
+.cost-container {
+  float: left;
+  width: 243px;
+  display: block;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.details-container {
+  float: left;
+  width: 243;
+  margin-top: 20px;
 }
